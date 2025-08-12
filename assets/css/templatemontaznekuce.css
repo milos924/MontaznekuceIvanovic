@@ -1215,7 +1215,7 @@ Best Deal Style
 
 /* 
 ---------------------------------------------
-Properties Style
+Properties Style Kuce
 --------------------------------------------- 
 */
 
@@ -1283,7 +1283,87 @@ Properties Style
 .properties .item .main-button {
   text-align: center;
 }
+/* 
+---------------------------------------------
+Kontakt informacije
+--------------------------------------------- 
+*/
+  .contact-link {
+    transition: transform 0.2s ease;
+  }
+  .contact-link:hover {
+    transform: scale(1.05);
+  }
+/* 
+---------------------------------------------
+Properties Style Vikendice
+--------------------------------------------- 
+*/
 
+.properties .item1 {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+.properties .item1 img {
+  width: 100%;            
+  height: 500px;          
+  object-fit: cover;      
+  border-radius: 10px;
+  display: block;
+}
+
+.properties .item1 span.category {
+  background-color: #3536335c;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #1e1e1e;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.properties .item1 h4 {
+  font-size: 19px;
+  margin: 25px 0px;
+}
+
+.properties .item1 h4 a {
+  color: #1e1e1e;
+}
+
+.properties .item1 ul li {
+  display: inline-block;
+  font-size: 15px;
+  color: #4a4a4a;
+  margin-right: 20px;
+}
+
+.properties .item1 ul li span {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.properties .item1 ul {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.properties .item1 h6 {
+  font-size: 20px;
+  color: #f35525;
+  margin-top: 6px;
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+}
+
+.properties .item1 .main-button {
+  text-align: center;
+}
 
 /* 
 ---------------------------------------------
